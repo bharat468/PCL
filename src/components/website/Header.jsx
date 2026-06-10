@@ -99,10 +99,10 @@ export default function Header() {
                 <SheetTrigger asChild>
                   <Button
                     variant="ghost"
-                    size="icon"
-                    className="text-[#f59e0b] hover:bg-slate-100"
+                    size="lg"
+                    className="text-[#f59e0b] hover:bg-slate-100 p-3"
                   >
-                    <Menu className="w-6 h-6" />
+                    <Menu className="w-8 h-8" />
                   </Button>
                 </SheetTrigger>
                 <SheetContent side="right" className="w-72 bg-white border-l-2 border-[#f59e0b]">
